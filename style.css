@@ -1,0 +1,44 @@
+body {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+#controls {
+	margin-top: 2em;
+}
+
+
+.horse span {
+	display: inline-block;
+	width: 256px;
+	font-family: 'Courier New';
+}
+.horseName { 
+	font-weight: bold; 
+	font-variant: small-caps;
+	font-size: 14pt;
+}
+.horseStats { text-align: center; }
+.horseDist { text-align: right; }
+
+
+#msg {
+	display: none;
+	margin-top: 1em;
+	border: 1px solid black;
+}
